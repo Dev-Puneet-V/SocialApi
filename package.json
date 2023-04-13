@@ -1,0 +1,32 @@
+{
+  "name": "socialapi",
+  "version": "1.0.0",
+  "description": "SocialApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha tests/*.js",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Puneet-iner/SocialApi.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Puneet Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Puneet-iner/SocialApi/issues"
+  },
+  "homepage": "https://github.com/Puneet-iner/SocialApi#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mocha": "^10.2.0"
+  }
+}
